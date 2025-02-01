@@ -17,6 +17,7 @@ This project aims to build an autoencoder model that can detect anomalies on ima
 1. Autoencoder model is strictly trained on "Good" *(No anomalies)* data so that it will always try to reconstruct the image without anomalies.
 2. The reconstructed image will then be compared to the input image and measure the Mean Square Error (MSE).
 3. MSE score will be used to determine if the input image have anomalies.
+4. Output will be **0** for "Good" and **1** for "Anomaly".
 
 ## 3.0 sample implementation
 You can check out this [sample_implementation.py](https://github.com/lloydaxeph/image_anomaly_detection/blob/main/sample_implementation.py) file.
